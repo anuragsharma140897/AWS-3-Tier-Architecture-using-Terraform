@@ -4,7 +4,7 @@ Deploying a 3-Tier Architecture in AWS Using Terraform using below AWS Services.
 
 Explanation :
 
-1-Architecture is built with 2 public subnet and 1 private subnet in cutom built VPC.
+*-Architecture is built with 2 public subnet and 1 private subnet in cutom built VPC.
 2-each subnet is deployed with one Ec2 instance. 
 3- Two EC2 Instance deployed in two Public subnets are routed to internet with internet gateway attached in custom created route table. 
   Elastic ip is assigned to public Ec2 instance for fixed ip.
